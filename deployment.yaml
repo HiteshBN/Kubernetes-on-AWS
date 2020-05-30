@@ -19,7 +19,3 @@ spec:
         image: hiteshbn/simple_node
         ports:
         - containerPort: 80
-      livenessProbe:
-        httpGet:
-            path: /health
-            port: 8080
